@@ -1,0 +1,10 @@
+ <h1>Movie Cite🎦</h1>
+<ol class="gradient-list">
+{{#each movies }}
+  <li>
+    <a href= "/movies/{{ this.id }}">
+    {{ this.attributes.title }}
+    </a>
+  </li>
+{{/each}}
+</ol> 
